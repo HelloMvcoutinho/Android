@@ -17,9 +17,11 @@
     <EditText
         android:id="@+id/edit_valor"
         android:layout_width="160dp"
+        android:layout_marginTop="8dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-
+        android:textAlignment="center"
+        android:inputType="numberSigned"
         android:text="" />
 
     <TextView
